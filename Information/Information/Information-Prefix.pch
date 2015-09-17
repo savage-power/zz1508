@@ -1,0 +1,24 @@
+//
+//  Information-Prefix.pch
+//  Information
+//
+//  Created by qianfeng on 15/9/12.
+//  Copyright (c) 2015年 刘强. All rights reserved.
+//
+
+#ifndef Information_Information_Prefix_pch
+#define Information_Information_Prefix_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Define.h"
+
+#endif
+#endif
