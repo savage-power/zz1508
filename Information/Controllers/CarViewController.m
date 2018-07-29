@@ -21,7 +21,7 @@
     [self createDropDownRefresh];
     
     [self createPullOnLoading];
-    
+    //测试2
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"widgettop_bg_big_1"] forBarMetrics:UIBarMetricsDefault];
     
 }
