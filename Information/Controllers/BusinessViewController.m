@@ -20,7 +20,7 @@
     [self createDropDownRefresh];
     
     [self createPullOnLoading];
-    
+    // 备注
     [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"widgettop_bg_big_1"] forBarMetrics:UIBarMetricsDefault];
     
 }
